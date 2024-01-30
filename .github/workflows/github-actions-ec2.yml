@@ -34,5 +34,5 @@ jobs:
             sudo yum install httpd -y
             sudo systemctl start httpd
             sudo systemctl enable httpd
-            cd /home/test
+            cd home
             sudo mv * /var/www/html
